@@ -1,0 +1,176 @@
+body {
+    background:linear-gradient(0deg, rgba(84,189,200,0.7945553221288515) 0%, rgba(81,178,206,0.6488970588235294) 8%, rgba(63,94,251,0.7805497198879552) 23%, rgba(64,96,250,0.6404936974789917) 100%), url("assets/bg.jpg");
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    max-width: 100%;
+    font-size: 2vw;
+    height: auto;
+  }
+  h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    max-width: 100%;
+    font-size: 0.75vw;
+    height: auto;
+  }
+  h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    max-width: 100%;
+    font-size: 1.2vw;
+    height: auto;
+  }
+  p {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    max-width: 100%;
+    font-size: 1vw;
+    height: auto;
+  }
+  .linkcolor a{
+    text-decoration: none;
+    color:#125ea9;
+  }
+  .linkcolor a:visited{
+    color:blue;
+    text-decoration: none;
+}
+  header {
+    position: relative;   /* Position the header relatively to place the logo in it */
+    text-align: center;   /* Centers the content horizontally inside the header */
+    padding: 0 0;      /* Adjusts the padding around the logo */
+  }
+  footer {
+    margin-top: auto;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  
+  .logo {
+    max-width: 20%;      /* Ensures the logo will scale with screen size */
+    height: auto;         /* Maintains the aspect ratio */
+  }
+  .button {
+    background-color: #387af3; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    min-width: 10vw;
+    min-height: 2vw;
+  }
+  .button2 {
+    border-radius: 15%;
+  }
+  .button2::after {
+    content: "mc.suurvaal.ee";
+  }
+  .button2:hover {
+    background-color: #125ea9;;
+  }
+  .button2:hover::after {
+    content:"Kopeeri ip";
+  }
+  .container .box{
+    position: relative;
+    width: calc(18vw - 0.3vw);
+    height: calc(30vh - 0vh);
+    background: linear-gradient(0deg, rgba(63,94,251,0.5) 22%, rgba(64,119,250,0.6489189425770308) 57%, rgba(64,119,250,0.25) 100%);
+    float: left;
+    margin-top: 1.5vw;
+    margin-left: 5vw;
+    margin-right: 1vw;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .container .box:first-of-type {
+    margin-left: 17.5vw;  
+  }
+
+  @media all and (max-width: 600px) {
+    .logo {
+        max-width: 50%;      /* Ensures the logo will scale with screen size */
+        height: auto;         /* Maintains the aspect ratio */
+      }
+    h1 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        max-width: 100%;
+        font-size: 4vw;
+        height: auto;
+    }
+    h2 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        max-width: 100%;
+        font-size: 2vw;
+        height: auto;
+      }
+    .button {
+        background-color: #387af3; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 3vw;
+        display: block;
+        margin: 0 auto;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        min-width: 10vw;
+        min-height: 2vw;
+    }
+    .container .box{
+        position: relative;
+        width: calc(20vw - 0.3vw);
+        height: calc(30vh - 0vh);
+        background: linear-gradient(0deg, rgba(63,94,251,0.5) 22%, rgba(64,119,250,0.6489189425770308) 57%, rgba(64,119,250,0.25) 100%);
+        float: left;
+        margin-top: 3vw;
+        margin-left: 5vw;
+        margin-right: 1vw;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 10px;
+      }
+      .container .box:first-of-type {
+        margin-left: 16vw;  
+      }
+  h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    max-width: 100%;
+    font-size: 2.5vw;
+    height: auto;
+  }
+  p {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    max-width: 100%;
+    font-size: 2vw;
+    height: auto;
+  }
+  }
