@@ -36,6 +36,8 @@ body {
     max-width: 100%;
     font-size: 1vw;
     height: auto;
+    margin-left: 1vw;
+    margin-top: 0.5vw;
   }
   .linkcolor a{
     text-decoration: none;
